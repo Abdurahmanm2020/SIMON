@@ -1,5 +1,5 @@
 body {
-	background:url(images/background-2.gif) no-repeat;
+	background:url(background-2.gif) no-repeat;
 	background-size: 100%;
   text-align: center;
   background-color: #011F3F;
@@ -80,47 +80,47 @@ position: relative;
 }
 
 #red {
-	background-image:url(images/red-a.png);
+	background-image:url(red-a.png);
 	background-size:100%;
 }
 
 #green {
-	background-image:url(images/green-w.png);
+	background-image:url(green-w.png);
 	background-size:100%;
 }
 
 #blue {
-	background-image:url(images/blue-d.png);
+	background-image:url(blue-d.png);
 	background-size:100%;
 }
 
 #yellow {
-	background-image:url(images/yellow-s.png);
+	background-image:url(yellow-s.png);
 	background-size:100%;
 }
 
 
 #red.chosen,
 #red:hover {
-	background-image:url(images/red-a-klick-2.png);
+	background-image:url(red-a-klick-2.png);
 	background-size:100%;
 }
 
 #green.chosen,
 #green:hover  {
-	background-image:url(images/green-w-klick-2.png);
+	background-image:url(green-w-klick-2.png);
 	background-size:100%;
 }
 
 #blue.chosen,
 #blue:hover  {
-	background-image:url(images/blue-d-klick-2.png);
+	background-image:url(blue-d-klick-2.png);
 	background-size:100%;
 }
 
 #yellow.chosen,
 #yellow:hover  {
-	background-image:url(images/yellow-s-klick-2.png);
+	background-image:url(yellow-s-klick-2.png);
 	background-size:100%;
 }
 
