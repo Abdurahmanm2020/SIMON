@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(images/background-start.png);
+	background-size: 100%;
+  text-align: center;
+}
+
+h1{
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:2rem;
+}
+
+p{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1rem;
+}
+
+.modal-body{
+	text-align:center;
+	background-color:#FFCAFF;
+}
+
+.modal-footer{
+	text-align:center;
+	background-color:#FFCAFF;
+}
+
+.modal-header{
+	text-align:center;
+	background-color:#FFCAFF;
+}
+
+.modal-title{
+	text-align:center;
+	background-color:#FFCAFF;
+}
+
+#myModal{
+	text-align:center;
+	background-color:#ff95ff38;
+}
+
+
+
+
+.start {
+    right: 18%;
+    position: absolute;
+    bottom: 40%;
+}
+
+.option {
+    right: 10%;
+    position: absolute;
+    bottom: 52%;
+}
+
+.how-to-play {
+    right: 27%;
+    position: absolute;
+    bottom: 28%;
+}

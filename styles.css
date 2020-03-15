@@ -1,0 +1,135 @@
+body {
+	background:url(images/background-2.gif) no-repeat;
+	background-size: 100%;
+  text-align: center;
+  background-color: #011F3F;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.SIMON{
+	position:relative;
+	left: -30%;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+    line-height: 2em;
+    color: #FFF;
+    float: right;
+    margin-right: 18%;
+}
+
+#title {
+	text-align:center;
+  font-family: 'Agency FB', cursive;
+  font-size: 6rem;
+  margin:  5%;
+  color: #F2D8FF;
+}
+
+level-completed{
+	 background-color:#00F200;
+  opacity: 0.8;
+}
+
+.back {
+    right: 82%;
+    position: absolute;
+    bottom: 68%;
+}
+
+footer{
+	padding: 0% 0% 0%;
+}
+
+
+.logo{
+    z-index: 1;
+    top: 34%;
+    position: absolute;
+    display: block;
+    /* width: 45%; */
+    margin: auto auto;
+    left: 36%;
+}
+
+.container {
+position: relative;
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.btn {
+	margin-top:0%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+ /* border: 10px solid black;
+  border-radius: 20%;*/
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#red {
+	background-image:url(images/red-a.png);
+	background-size:100%;
+}
+
+#green {
+	background-image:url(images/green-w.png);
+	background-size:100%;
+}
+
+#blue {
+	background-image:url(images/blue-d.png);
+	background-size:100%;
+}
+
+#yellow {
+	background-image:url(images/yellow-s.png);
+	background-size:100%;
+}
+
+
+#red.chosen,
+#red:hover {
+	background-image:url(images/red-a-klick-2.png);
+	background-size:100%;
+}
+
+#green.chosen,
+#green:hover  {
+	background-image:url(images/green-w-klick-2.png);
+	background-size:100%;
+}
+
+#blue.chosen,
+#blue:hover  {
+	background-image:url(images/blue-d-klick-2.png);
+	background-size:100%;
+}
+
+#yellow.chosen,
+#yellow:hover  {
+	background-image:url(images/yellow-s-klick-2.png);
+	background-size:100%;
+}
+
+.chosen {
+	
+	
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
